@@ -1,4 +1,4 @@
-FROM ubuntu:noble-20240114 AS base
+FROM ubuntu:jammy-20240627.1 AS base
 
 RUN apt-get update && \
     apt-get install -y \
